@@ -65,7 +65,7 @@ let sortMass = characters.slice().sort((m1, m2) => m1.mass - m2.mass);
 console.log(sortMass);
 
 //Sort Hight 
-const sortHeight = characters.slice().sort((h1, h2) => h1.height - h2.height);
+let sortHeight = characters.slice().sort((h1, h2) => h1.height - h2.height);
 console.log(sortHeight);
 
 //Does every character have mass more than 40?
