@@ -2,7 +2,7 @@ let user = {
     name: "eman",
     email: "emn@gmail.com",
     id: 123,
-    available: false,
+    available: true,
     check: function() {
         if (this.available == true) {
             console.log("your available");
